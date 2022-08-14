@@ -1,0 +1,91 @@
+.container {
+  height: 100vh;
+  background: rgba(243, 177, 140, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  margin: 5px;
+  border: 10px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 94.34px;
+  cursor: pointer;
+}
+
+
+.box:hover {
+  background: rgba(140, 140, 140, 1);
+}
+
+
+.box-x:hover {
+  background: rgba(255, 5, 5, 1);
+}
+
+.box-o:hover {
+  background: rgba(0, 38, 237, 1);
+}
+
+
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.title {
+  color: rgba(0, 38, 237, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 65px;
+  margin-bottom: 20px;
+
+}
+
+.box-x-win {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  margin: 5px;
+  border: 10px solid rgba(255, 5, 5, 1) ;
+  color:rgba(255, 5, 5, 1) ;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 94.34px;
+  cursor: pointer;
+}
+
+.box-o-win {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  margin: 5px;
+  color: rgba(0, 38, 237, 1);
+  border-radius: 10px; ;
+  border: 10px solid rgba(0, 38, 237, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 94.34px;
+  cursor: pointer;
+}
+
